@@ -70,4 +70,4 @@ describe('Employee', () => {
                 expect(employee.role).toBe(role);
     
             });
-        )};
+        });
