@@ -1,6 +1,4 @@
-const { it, expect } = require('@jest/globals');
 const Intern = require('../lib/Intern');
-const Engineer = require('../lib/Intern');
 
 describe('Intern', () => {
  //all tests will be here
