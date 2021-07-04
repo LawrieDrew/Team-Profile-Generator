@@ -13,7 +13,7 @@
 # Team-Profile-Generator
 
 # Description:
-This is a README markdown file generator created for my Columbia Engineering Full Stack Web Development Bootcamp.
+This is a Corporate Roster/Team Profile generator created for my Columbia Engineering Full Stack Web Development Bootcamp.
 
 # Usage:
 https://github.com/LawrieDrew/
