@@ -8,7 +8,7 @@ describe('Employee', () => {
 
             const employee = new Employee();
 
-            expect(employee instanceof Employee).tobeTruthy()
+            expect(employee instanceof Employee).toBeTruthy()
         } );
 
         it ('sets name property based on contructor argument', () => {
@@ -64,10 +64,10 @@ describe('Employee', () => {
 
         describe('getRole', () => {
             it('it sets role property based on constructor argument', () => {
-                const  role = 'role';
-                const employee = new Employee("", role);
+                const employee = new Employee();
     
-                expect(employee.role).toBe(role);
+                expect(employee.getRole).toBe(Employee);
     
             });
-        });
+
+        })}); 

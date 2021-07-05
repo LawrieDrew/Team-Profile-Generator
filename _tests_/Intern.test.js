@@ -80,5 +80,6 @@ describe('Intern', () => {
                 expect(intern.getSchool()).toBe(school);
 
             });
-
         });
+
+    })

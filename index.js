@@ -96,6 +96,16 @@ const internQues = [
         name: 'intSchool',
     }
 ];
+
+function askEmployee() {
+    inquirer.prompt(employeeQues).then(answers =>{
+        const employee = new Employee(answers.manName, answers.manID, answers.manEmail, answers.manOffNum);
+       team.push(employee)
+       console.log(team);
+       init();
+   })
+}
+
 function askManager(){
     inquirer.prompt(managerQues).then(answers =>{
          const manager = new Manager(answers.manName, answers.manID, answers.manEmail, answers.manOffNum);
@@ -147,7 +157,7 @@ function renderHTML(team){
     <body>
         <div class="jumbotron jumbotron-fluid .bg-primary text-center">
             <div class="container">
-              <h1 class="display-4">Corporate Office Roster</h1>
+              <h1 class="display-4">Corporate Office Roster !</h1>
             </div>
           </div>
          
@@ -156,4 +166,4 @@ function renderHTML(team){
     </html>`
     
 }
-init()
+init();
