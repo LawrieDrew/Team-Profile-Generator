@@ -16,10 +16,11 @@
 This is a Corporate Roster/Team Profile generator created for my Columbia Engineering Full Stack Web Development Bootcamp.
 
 # Usage:
-https://github.com/LawrieDrew/
+https://github.com/LawrieDrew/Team-Profile-Generator.git
 
-# Demo:
-https://drive.google.com/file/d/1Vb5Jv1PJ67FELEDuSXdDESxEiKNwG4tj/view
+# Demo: 
+https://drive.google.com/file/d/18JQYUi_vfrQSM84xv60tmQeX_GMhiUkt/view
+
 
 # Contribution:
 My project is in a public repository on Github which is an open source platform. You may even be on it now. This project can be forked and all contribution is welcome!
